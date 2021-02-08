@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS: Selecting by class</title>
+        <style>
+        
+        h2 {
+            color: rgb(0, 232, 15);
+        }  
+        
+        #PARIS {
+            background-color: yellow;
+        }
+		#LYON {
+            background-color: yellow;
+        }
+
+		#BEJAIA {
+            background-color: yellow;
+        }
+        
+        p {
+            color: rgb(191, 0, 255);
+        }
+
+		#AUTEUR {
+            background-color: yellow;
+			color: blue;
+        }
+
+		.VILLES{
+            display: flex;
+			flex-warp: warp;
+		
+        }
+
+		.VILLES div {
+			width: 9000px;
+            border: solid 1px #000 ;
+        }
+        
+
+       
+        
+        </style>
+    </head>
+    <body>
+
+    <h1><center>TP METEO HTML </center></h1>
+
+	<div class="VILLES">
+
+    <div>
+    <h2 id="LYON">LYON</h2>
+    <p> 10 degres, pluvieux</p>
+	<img src="noun_snow cloud_737641 (1).png" alt="Icone meteo pluvieux"  width="100">
+    </div>
+
+
+	<div>
+    <h2 id ="PARIS">PARIS</h2>
+    <p> 7 degres, orageux</p>
+	<img src="noun_Rain and Lightning Cloud_653884.png" alt="Icone meteo orageux" width="100">
+	</div>
+
+
+	<div>
+	<h2 id ="BEJAIA">BEJAIA</h2>
+    <p> 22 degres, ensoleille</p>
+	<img src="noun_sun_653889.png" alt ="Icone meteo ensoeille"  width="100">
+    </div>
+	</div>
+
+
+    <p id = "AUTEUR">Auteur: Khalef Aguelmin p1712721<br>Icones meteo par <a href="https://thenounproject.com/search/collection/?q=weather">Nook Fulloption</a>.</p>
+    
+    
+    </body>
+</html>
